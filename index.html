@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Survey Form </title>
+
+
+</head>
+
+<form id="survey-form">
+<header>
+<h1 id="title"> SANDWICH DISQUISITION </h1>
+  </header>
+  
+<body>
+<p id="description"><b>Kindly provide commentary on your sandwich experience today.<b></p>
+
+<form id="survey form">
+  
+  <label for="name" id="name-label"> Name 
+  <br>
+  </label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" class="name" required> </input>
+<br>
+<br>
+
+<label for="email" id="email-label"> Email 
+<br>
+</label>
+  <input id="email" type="email" name="email" placeholder="Enter your email" class="email" required> </input>
+<br>
+<br>
+
+<label for="number" id="number-label"> Number of Visits </label>
+<br>
+<input id="number" type="number" name="number" placeholder="0" min="0" max="100" class="number"></input>
+<br>
+<br>
+
+<label for="dropdown" id="sandwich_type"> Which sandwich did you order today?
+<br>
+
+</label>
+<select id="dropdown" class="dropdown">
+  <option value="Burger">Burger</option>
+  <option value="Chicken">Chicken</option>      
+ <option value="Shrimp">Shrimp</option>
+  </select>
+<br>
+<br>
+  
+<label for="sandwich_qualities"> What sandwich qualities do you most look for? </label>
+<br>
+<fieldsets>
+
+<input type="radio" name="sandwich_qualities" class="qualities" checked id="Texture" value="Texture" />
+<label for="Texture"> Texture </label>
+ <br>
+  
+<input type="radio" name="sandwich_qualities" class="qualities" id="Flavor" value="Flavor" />
+<label for="Flavor"> Flavor </label>
+  <br>
+  
+<input type="radio" name="sandwich_qualities" class="qualities" id="Aroma"value="Aroma" />
+<label for="Aroma"> Aroma </label>
+  <br>
+  
+<input type="radio" name="sandwich_qualities" class="qualities" id="Presentation" value="Presentation" />
+<label for="Presentation"> Presentation </label>
+</fieldsets>
+<br>
+<br>
+
+<label for="improvements"> What would you like to see improved in our sandwiches? </label>
+<br>
+
+<input type="checkbox" name="Bun" placeholder="bun" value="Bun">
+<label for="checkbox">Bun</label>
+<br>
+
+<input id="protein-checkbox" type="checkbox" name="Protein" placeholder="protein" value="Protein">
+<label for="checkbox">Protein</label>
+<br>
+
+<input id="spread-checkbox" type="checkbox" name="Spread" placeholder="spread" value="Spread">
+<label for="checkbox">Spread</label>
+<br>
+
+<input id="filling-checkbox" type="checkbox" name="Filling" placeholder="filling" value="Filling">
+<label for="checkbox">Filling</label>
+<br>
+
+<input id="garnish-checkbox" type="checkbox" name="Garnish" placeholder="garnish" value="Garnish">
+<label for="checkbox">Garnish</label>
+<br>
+<br>
+
+<label for="comment">Additional Questions/Comments</label>
+<br>
+<textarea rows="4" cols="50" id="comment" placeholder="Enter your feedback here..."> </textarea>
+<br>
+<input id="submit" type="submit" value="Submit" class="submit-button">
+
+ </body>
+ </form>
+</html>

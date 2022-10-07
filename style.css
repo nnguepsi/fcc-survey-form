@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap');
+
+body {
+  font-family: "M PLUS Rounded 1c";
+    line-height: 1.4;
+  color: white;
+  background-image: url(https://images.pexels.com/photos/2874989/pexels-photo-2874989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+}
+
+.name, .email, .number {
+    background-color: transparent;
+    color: white;
+}
+ 
+.dropdown {
+  background-color: #294C60;
+  color: white;
+
+}
+
+
+.submit-button {
+  background-color: #FF9950;
+    color: black;
+}
+
+textarea {
+  background-color: transparent;
+  color: white;
+}
